@@ -1,0 +1,4 @@
+poe-api==0.4.8
+flask==2.0.2
+flask-limiter==1.4
+python-dotenv==0.19.1
