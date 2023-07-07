@@ -1,5 +1,5 @@
 # Import the poe package, the Flask framework, the python-dotenv package and the os module
-import poe-api
+import poe
 from flask import Flask, request
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
