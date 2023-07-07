@@ -11,7 +11,7 @@ load_dotenv()
 
 # Create a list of p-b cookies from the environment variables
 pb_cookies = []
-for i in range(1, 20): # Change 3 to the number of p-b cookies you have + 1
+for i in range(1, 60): # Change 3 to the number of p-b cookies you have + 1
   pb_cookie = os.getenv(f"PBCOOKIE{i}")
   if pb_cookie:
     pb_cookies.append(pb_cookie)
